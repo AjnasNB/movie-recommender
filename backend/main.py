@@ -21,7 +21,7 @@ app.add_middleware(
 
 # Initialize Groq client
 client = Groq(
-    api_key="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",
+    api_key="Add from env",
 )
 
 class MovieInput(BaseModel):
